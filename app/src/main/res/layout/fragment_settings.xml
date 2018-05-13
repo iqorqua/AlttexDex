@@ -1,0 +1,244 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.app.altex.alttexdex.fragments.SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.beardedhen.androidbootstrap.BootstrapCircleThumbnail
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:src="@drawable/men1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableRight="@android:drawable/ic_menu_edit"
+            android:text="email@gmail.com"
+            android:textColor="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:drawableRight="@android:drawable/ic_menu_edit"
+            android:password="true"
+            android:text="TextViewTextView"
+            android:textColor="@android:color/darker_gray" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_mylocation"
+        android:gravity="center_vertical"
+        android:text="New York, Redmond st.56"
+        android:textColor="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/settings_private_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Private account"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <com.github.angads25.toggle.LabeledSwitch
+                android:id="@+id/settings_private_account_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="10sp"
+                app:colorBorder="@color/bootstrap_brand_secondary_text"
+                app:colorOff="@color/bootstrap_gray"
+                app:colorOn="@android:color/holo_green_dark"
+                app:on="false"
+                app:textOff="Off"
+                app:textOn="On" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/settings_change_coin_police"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Change coin police"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <com.github.angads25.toggle.LabeledSwitch
+                android:id="@+id/settings_change_coin_police_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="10sp"
+                app:colorBorder="@color/bootstrap_brand_secondary_text"
+                app:colorOff="@color/bootstrap_gray"
+                app:colorOn="@android:color/holo_green_dark"
+                app:on="false"
+                app:textOff="Off"
+                app:textOn="On" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/settings_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="News"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <com.github.angads25.toggle.LabeledSwitch
+                android:id="@+id/settings_news_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="10sp"
+                app:colorBorder="@color/bootstrap_brand_secondary_text"
+                app:colorOff="@color/bootstrap_gray"
+                app:colorOn="@android:color/holo_green_dark"
+                app:on="false"
+                app:textOff="Off"
+                app:textOn="On" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/settings_active_my_friend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Active my friend"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="16sp" />
+
+            <com.github.angads25.toggle.LabeledSwitch
+                android:id="@+id/settings_active_my_friend_sw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textSize="10sp"
+                app:colorBorder="@color/bootstrap_brand_secondary_text"
+                app:colorOff="@color/bootstrap_gray"
+                app:colorOn="@android:color/holo_green_dark"
+                app:on="false"
+                app:textOff="Off"
+                app:textOn="On" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/shop_view_btn_buy_item2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            app:mfb_borderColor="@android:color/holo_green_dark"
+            app:mfb_defaultColor="@android:color/transparent"
+            app:mfb_text="Our website"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_focusColor="@android:color/holo_green_light"
+            fancy:mfb_iconFont="fontawesome.ttf"
+            fancy:mfb_iconPosition="left"
+            fancy:mfb_radius="30dp"
+            fancy:mfb_textColor="#FFFFFF" />
+
+        <com.rilixtech.materialfancybutton.MaterialFancyButton
+            android:id="@+id/shop_view_btn_buy_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            app:mfb_borderColor="@color/bootstrap_gray_dark"
+            app:mfb_defaultColor="?attr/colorPrimary"
+            app:mfb_text="Change"
+            fancy:mfb_borderWidth="1dp"
+            fancy:mfb_focusColor="@android:color/holo_green_light"
+            fancy:mfb_iconFont="fontawesome.ttf"
+            fancy:mfb_iconPosition="left"
+            fancy:mfb_radius="30dp"
+            fancy:mfb_textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

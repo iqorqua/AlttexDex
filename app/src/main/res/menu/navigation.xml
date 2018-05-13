@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_wallets"
+        android:icon="@drawable/wallet"
+        android:title="@string/title_activity_wallets" />
+
+    <item
+        android:id="@+id/navigation_rechange"
+        android:icon="@drawable/shuffle"
+        android:title="@string/title_activity_rechange" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/history"
+        android:title="@string/title_activity_history" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/profile"
+        android:title="@string/title_activity_profile" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/title_activity_wallets" />
+
+</menu>
